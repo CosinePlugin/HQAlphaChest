@@ -1,0 +1,15 @@
+# 자동 저장 주기 (틱 단위)
+auto-save-period: 6000
+
+inventory:
+  # 창고 번호 = %index%
+  locked:
+    material: ENDER_CHEST
+    display-name: "&6&l[ %index%번 ] &f&l창고"
+    lore:
+      - "&7%index%번 창고를 사용할 수 있는 권한이 없습니다."
+  unlocked:
+    material: CHEST
+    display-name: "&6&l[ %index%번 ] &f&l창고"
+    lore:
+      - "&7클릭 시 %index%번 창고를 오픈합니다."

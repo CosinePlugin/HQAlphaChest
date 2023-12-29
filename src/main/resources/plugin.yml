@@ -1,0 +1,33 @@
+name: HQAlphaChest
+main: kr.cosine.alphachest.HQAlphaChest
+version: 1.0.0
+api-version: 1.13
+author: Cosine_A
+website: https://github.com/CosinePlugin/HQAlphaChest
+
+permissions:
+  hqalphachest.use.1:
+    default: op
+  hqalphachest.use.2:
+    default: op
+  hqalphachest.use.3:
+    default: op
+  hqalphachest.use.4:
+    default: op
+  hqalphachest.use.5:
+    default: op
+  hqalphachest.use.6:
+    default: op
+  hqalphachest.use.7:
+    default: op
+  hqalphachest.use.8:
+    default: op
+  hqalphachest.use.9:
+    default: op
+
+commands:
+  창고:
+    description: 창고 명령어입니다.
+  창고관리:
+    description: 창고 관리 명령어입니다.
+    permission: op
