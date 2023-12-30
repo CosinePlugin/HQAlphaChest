@@ -29,7 +29,7 @@ public class AlphaChestAdminCommand implements CommandExecutor, TabCompleter {
     private final String[] commandList = {
         "§6[ /창고관리 열기 §7[닉네임] §6] §8- §f해당 유저의 창고를 오픈합니다.",
         "§6[ /창고관리 저장 §6] §8- §f창고의 변경된 사항을 수동으로 저장합니다.",
-        "§6[ /창고관리 리로드 ] §8- §fconfig.yml을 리로드하였습니다."
+        "§6[ /창고관리 리로드 ] §8- §fconfig.yml을 리로드합니다."
     };
 
     @Override
