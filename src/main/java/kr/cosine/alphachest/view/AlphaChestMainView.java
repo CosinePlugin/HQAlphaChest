@@ -71,10 +71,9 @@ public class AlphaChestMainView extends AbstractContainer {
 
     @Override
     public void onClose(InventoryCloseEvent event) {
+        alphaChestHolder.isOpened = false;
         if (isPrevented) {
             isPrevented = false;
-            return;
         }
-        alphaChestHolder.isOpened = false;
     }
 }
