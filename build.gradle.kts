@@ -25,4 +25,7 @@ tasks {
         archiveFileName.set("${rootProject.name}-${rootProject.version}.jar")
         destinationDirectory.set(file("D:\\서버\\1.20.1 - 개발\\plugins"))
     }
+    withType<JavaCompile> {
+        options.encoding = "UTF-8"
+    }
 }
